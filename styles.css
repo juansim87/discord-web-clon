@@ -1,0 +1,527 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	background-color: #404eed;
+	color: white;
+	font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.nav {
+	width: 70%;
+	height: 80px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-bottom: 15vh;
+}
+
+.nav__logo {
+	width: 12%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	border: thin ;
+}
+
+.nav__logo img {
+	width: 140px;
+}
+
+.nav__menu {
+	width: 75%;
+}
+
+.nav__list {
+	height: 100%;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 36px;
+}
+
+.nav__list li {
+	cursor: pointer;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.nav__list li:hover {
+	text-decoration: underline;
+}
+
+.nav__login {
+	width: 12%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav__login button {
+	width: 120px;
+	padding: 12px;
+	background-color: white;
+	border-radius: 50px;
+	border: 0px;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.nav__login button:hover {
+	color: #5865f2;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 20px -7px;
+	transition-duration: 0.4s;
+}
+
+.headboard {
+	width: 100%;
+	height: 50vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 100px;
+}
+
+.headboard__image {
+	width: 25%;
+	align-self: flex-end;
+}
+
+.headboard__image img {
+	width: 100%;
+}
+
+.headboard__content {
+	width: 55%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-self: flex-start;
+	gap: 20px;
+}
+
+.headboard__texts {
+	width: 95%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+}
+
+.headboard__texts h1 {
+	font-family: "ABC Ginto Nord Unlicensed Trial", sans-serif;
+	font-size: 60px;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.headboard__texts p {
+	font-size: 20px;
+	line-height: 32px;
+	text-align: center;
+}
+
+.headboard__buttons {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+}
+
+.headboard__button {
+	width: 360px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50px;
+	padding: 24px 32px;
+	gap: 12px;
+	cursor: pointer;
+	stroke: black;
+	fill: black;
+}
+
+.headboard__button:hover {
+	stroke: #5865f2;
+	fill: #5865f2;
+	color: #5865f2;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 20px -7px;
+	transition-duration: 0.4s;
+}
+
+/* .headboard__button img {
+	width: 24px;
+}
+
+.headboard__button img:hover {
+	filter: invert(40%) sepia(94%) saturate(3093%) hue-rotate(222deg)
+		brightness(96%) contrast(99%);
+	transition-duration: 0.4s;
+} */
+
+.headboard__button p {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.btn-white {
+	background-color: white;
+	color: #23272a;
+}
+
+.btn-black {
+	background-color: #23272a;
+	color: white;
+}
+
+.btn-black:hover {
+	background-color: #3b3b3b;
+	color: white;
+}
+
+.main {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.main__articles {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.main__article {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 120px 0;
+	gap: 120px;
+}
+
+.article__text {
+	width: 380px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.article__text h3 {
+	font-size: 48px;
+	font-weight: 700;
+}
+
+.article__text p {
+	font-size: 20px;
+	line-height: 32px;
+}
+
+.article__image {
+	width: 678px;
+}
+
+.article__image img {
+	width: 100%;
+}
+
+.main__windowsample {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 120px 0;
+}
+
+.windowsample__text {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	gap: 40px;
+}
+
+.windowsample__text h2 {
+	font-family: "ABC Ginto Nord Unlicensed Trial", sans-serif;
+	font-size: 40px;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.windowsample__text p {
+	font-size: 20px;
+	text-align: center;
+	line-height: 28px;
+}
+
+.windowsample__image {
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.windowsample__image img {
+	width: 100%;
+}
+
+.main__download {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 120px;
+}
+
+.download__content {
+	width: 65%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 32px;
+}
+
+.content__text {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+	background-image: url(/images/stars.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.content__text p {
+	font-size: 36px;
+	font-weight: 800;
+}
+
+.content__button {
+	width: 360px;
+	background-color: #404eed;
+	color: #f6f6f6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50px;
+	padding: 24px 32px;
+	gap: 12px;
+	cursor: pointer;
+}
+
+.content__button img {
+	width: 24px;
+	filter: invert(100%) sepia(12%) saturate(2%) hue-rotate(45deg) brightness(101%) contrast(101%);
+}
+
+.content__button p {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.content__button:hover {
+	background-color:  #5865f2;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 20px -7px;
+	transition-duration: 0.4s;
+}
+
+
+.bckg-white {
+	background-color: #fff;
+	color: #23272a;
+}
+
+.bckg-lightgrey {
+	background-color: #f6f6f6;
+	color: #23272a;
+}
+
+.footer {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 100px;
+	color: white;
+	background-color: #23272a;
+}
+
+.footer__info {
+	width: 85%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 80px;
+	border-bottom: #404eed solid 2px;
+	padding-bottom: 80px;
+}
+
+.info__social {
+	width: 29%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 40px;
+	align-items: flex-start;
+}
+
+.social__language {
+	color: white;
+}
+
+/* .language__select {
+	appearance: none;
+	background-color: transparent;
+	border: none;
+	padding: 0 1em 0 0;
+	margin: 0;
+	width: 100%;
+	font-family: inherit;
+	font-size: inherit;
+	cursor: inherit;
+	line-height: inherit;
+} */
+
+.social__networks {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 20px;
+	cursor: pointer;
+}
+
+.info__related {
+	width: 70%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 20px;
+}
+
+.related__menu {
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 24px;
+}
+
+.related__title {
+	font-size: 16px;
+	font-weight: 500;
+	color: #5865f2;
+}
+
+.related__list {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	list-style: none;
+	gap: 12px;
+}
+
+.related__list li {
+	font-size: 16px;
+	line-height: 28px;
+	cursor: pointer;
+}
+
+.related__list li:hover {
+	text-decoration: underline;
+}
+
+.footer__register {
+	width: 85%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px 0;
+}
+
+.footer__logo {
+	width: 12%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.footer__logo img {
+	width: 140px;
+}
+
+.register__button {
+	width: 12%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.register__button button {
+	width: 100px;
+	padding: 12px;
+	background-color: #5865f2;
+	color:#fff;
+	border-radius: 50px;
+	border: 0px;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.register__button button:hover {
+	background-color:  #8891f2;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 20px -7px;
+	transition-duration: 0.4s;
+}
