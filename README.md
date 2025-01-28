@@ -1,6 +1,6 @@
 # Clonación de la Web de Discord
 
-Este repositorio contiene la recreación de la web de Discord, respetando su diseño y funcionalidad de acuerdo a la versión archivada del **16 de abril de 2024**. A continuación, se presenta la estructura recomendada para el archivo README.
+Este repositorio contiene la recreación de la web de Discord, respetando su diseño y funcionalidad de acuerdo a la versión archivada del **16 de abril de 2024**.
 
 ---
 
@@ -48,7 +48,6 @@ Este proyecto consiste en **clonar la web de Discord** utilizando únicamente un
 ## Buenas prácticas
 - **Metodología BEM**
 - **Planteamiento previo**
-![alt text](/docs/photos/planteamiento.jpg "Logo Title Text 1")
 
 ---
 
